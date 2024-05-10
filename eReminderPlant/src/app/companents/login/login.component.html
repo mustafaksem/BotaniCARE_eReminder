@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.0/css/boxicons.min.css">
+    <link rel="stylesheet" href="login.component.css">
+    <title>Learn more</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">BotaniCARE.</a>
+
+            <nav class="navbar">
+                <a href="#" id="home-btn">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                
+            </nav>
+            <a href="#" class="headerbtn">Login</a>
+        </header> 
+         
+        <div class="row d-flex justify-content-center align-items-center" style="height: 98vh;">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Log In</h3>
+                        <p>Please fill your information to log in</p>
+                    </div>
+                    <div class="card-body">
+                        <form formValidate #loginForm="ngForm" autocomplete="off" (ngSubmit)="signIn(loginForm)">
+                            <div class="form-group">
+                                <label>Username or Email</label>
+                                <input type="text" class="form-control" [(ngModel)]="login.userNameOrEmail" name="userNameOrEmail" required minlength="3">
+                                <div class="invalid-feedback"></div>
+                            </div>
+                            <div class="form-group mt-2 position-relative">
+                                <label>Password</label>
+                                <input type="password" #password class="form-control" [(ngModel)]="login.password" name="password" required value="asdasd">
+                                <div class="invalid-feedback"></div>
+                                @if(password.type === "password"){
+                                    <i class='bx bxs-low-vision eye'(click)="showOrHidePassword()" ></i>
+                                }@else {
+                                    <i class='bx bxs-bullseye eye' (click)="showOrHidePassword()"></i>
+                                }
+                            </div>
+                            <div class="form-group mt-2">
+                                <button type="submit" class="btn btn-dark w-100">
+                                    <i class='bx bxs-lock-alt'></i>
+                                    Log In
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </main> 
+</body>
+</html>

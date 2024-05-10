@@ -1,0 +1,15 @@
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\bin\Debug\net8.0\eReminderServer.Application.deps.json
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\bin\Debug\net8.0\eReminderServer.Application.dll
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\bin\Debug\net8.0\eReminderServer.Application.pdb
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\bin\Debug\net8.0\eReminderServer.Domain.dll
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\bin\Debug\net8.0\eReminderServer.Domain.pdb
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\eReminderServer.Application.csproj.AssemblyReference.cache
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\eReminderServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\eReminderServer.Application.AssemblyInfoInputs.cache
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\eReminderServer.Application.AssemblyInfo.cs
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\eReminderServer.Application.csproj.CoreCompileInputs.cache
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\eReminderServer.Application.csproj.CopyComplete
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\eReminderServer.Application.dll
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\refint\eReminderServer.Application.dll
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\eReminderServer.Application.pdb
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Application\obj\Debug\net8.0\ref\eReminderServer.Application.dll

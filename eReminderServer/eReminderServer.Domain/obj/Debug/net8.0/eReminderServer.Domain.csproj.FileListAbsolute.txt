@@ -1,0 +1,12 @@
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\bin\Debug\net8.0\eReminderServer.Domain.deps.json
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\bin\Debug\net8.0\eReminderServer.Domain.dll
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\bin\Debug\net8.0\eReminderServer.Domain.pdb
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\obj\Debug\net8.0\eReminderServer.Domain.csproj.AssemblyReference.cache
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\obj\Debug\net8.0\eReminderServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\obj\Debug\net8.0\eReminderServer.Domain.AssemblyInfoInputs.cache
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\obj\Debug\net8.0\eReminderServer.Domain.AssemblyInfo.cs
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\obj\Debug\net8.0\eReminderServer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\obj\Debug\net8.0\eReminderServer.Domain.dll
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\obj\Debug\net8.0\refint\eReminderServer.Domain.dll
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\obj\Debug\net8.0\eReminderServer.Domain.pdb
+C:\Users\mustafa\Desktop\eReminder\eReminderServer\eReminderServer.Domain\obj\Debug\net8.0\ref\eReminderServer.Domain.dll

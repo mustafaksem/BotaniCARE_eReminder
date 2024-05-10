@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7K/4NR2boJ7sAoUN2haRXuQ1KU+SRsZoJC1FMlyKVnI=",
+  "Source": "eReminderServer.WebAPI",
+  "BasePath": "_content/eReminderServer.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
