@@ -1,0 +1,287 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+body{
+    color:#fff;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.39);
+    backdrop-filter: blur(2px);
+}
+.logo{
+    font-size: 27px;
+    color:#fff;
+    text-decoration:none;
+    font-weight: 900;
+}
+.navbar{
+    padding-left: 450px;
+}
+.navbar a{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 25px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: rgb(249, 0, 0);
+}
+.main{
+    min-height: 100vh;
+    background-color: black;
+    background: url('Pictures/main_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1.9;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 8% 0;
+}
+.home-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    max-width: 650px;
+    border-radius: 8px;
+}
+.home-content h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+.home-content p{
+    margin: 20px 0 30px;
+    font-size: 16;
+}
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+
+}
+.btn{
+    padding: 5px 25px;
+    background-color:black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-decoration:none;
+}
+.main_container{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background:transparent;
+    border: 1px solid rgba(7, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    color:#000000;
+    overflow: hidden; 
+    transition:height .6s ease; 
+    margin-left: 250px;
+    margin-top: -80px;  
+}
+.container-bg-video {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-bg-video video {
+    opacity: 0.93;
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
+}
+.text-under-video{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.39);
+    backdrop-filter: blur(2px);
+
+}
+
+/*letsFindPages tasarımı*/
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 13%;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(7, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    color:#000000;
+    overflow: hidden; 
+    transition:height .6s ease;   
+}
+.container-bg-video {
+    opacity: 0.8;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-bg-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.search-box {
+    position: relative;
+    width: 40%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+}
+.search-box input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 3px solid;
+    outline: none;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 48px 0 42px;
+}
+.search-box input::placeholder{
+    color:#000000;
+    text-transform: capitalize;
+}
+.search-box button{
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 100%;
+    font-weight: 900;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    color: #000000;
+    padding: 0 40px 0 5px;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+
+/* 404 Durum sayfa tasarımı */
+.not-found {
+    position: absolute;
+    top:-30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 140px;
+}
+.not-found img {
+    width: 50%;
+}
+.not-found p {
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 12px;
+}
+.not-found{
+    visibility: hidden;
+}
+
+/* Bilgilendirme sayfa tasarımı BAKMAYA DEVAM EDİLECEK */
+.names{
+    position: absolute;
+    float: left;
+    top: 100px;
+    width: 48%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6); /* Arkaplan rengi */
+}
+.common-names{
+    height: 100px;
+    background-color:transparent;
+    overflow-y:auto;
+}
+.value{
+    height: 395px;
+    background-color:transparent;
+    overflow-y: auto;
+}
+.title {
+    margin-left:15px;
+    font-size: 20px; /* Başlık boyutu */
+    margin-top: 5px;
+}
+
+.description {
+    margin-left:25px;
+    font-size: 16px; /* Açıklama boyutu */
+    margin-top: 15px;
+}
+.foto{
+    position: absolute;
+    top: 100px;
+    right: 15px;
+    width: 22%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.foto img {
+    max-width: 100%; 
+    max-height: 100%; 
+    border-radius: 10px; 
+}
+
+.care{
+    position:absolute;
+    top: 100px;
+    width: 25%;
+    left:51% ;
+    border-radius: 10px;    
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.edible_parts,
+.watering,
+.propagation_methods{
+    height: 165px;
+    background-color:transparent;
+    overflow-y: auto;
+}
