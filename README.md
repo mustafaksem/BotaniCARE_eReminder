@@ -5,7 +5,7 @@ botaniCARE, kullanıcıların bitkilerinin bakımını düzenli olarak yapmalar�
 
 ## Ekran Görüntüsü
 
-<img src="PlantCareApp/botaniCare_Home.PNG" width = "450" height="350"> <img src="PlantCareApp/botaniCare_Success.PNG" width = "450" height="350">    <img src="PlantCareApp/botaniCare_Fail.PNG" width = "450" height="350">  <img src="PlantCareApp/Reminder.PNG" width = "450" height="350">
+<img src="PlantCareApp/botaniCare_Home.PNG" width = "400" height="300"> <img src="PlantCareApp/botaniCare_Success.PNG" width = "400" height="300">    <img src="PlantCareApp/botaniCare_Fail.PNG" width = "400" height="300">  <img src="PlantCareApp/Reminder.PNG" width = "400" height="300">
 
 ## Uygulama Özellikleri
 
